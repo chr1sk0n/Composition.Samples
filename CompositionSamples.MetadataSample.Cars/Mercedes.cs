@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.Composition;
-using System.ComponentModel.Composition.Primitives;
 using CompositionSamples.MetadataSample.Cars.Contracts;
 
 namespace CompositionSamples.MetadataSample.Cars
