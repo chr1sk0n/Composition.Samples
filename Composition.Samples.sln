@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition.Samples", "Composition.Samples\Composition.Samples.csproj", "{F13C9855-6A5D-4E08-99CC-53AD0777A6CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition.Samples.Initial", "Composition.Samples\Composition.Samples.Initial.csproj", "{F13C9855-6A5D-4E08-99CC-53AD0777A6CB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars", "Cars\Cars.csproj", "{D88C16A9-120B-4059-AFD3-E278F7FAF41F}"
 EndProject
