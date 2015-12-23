@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.ComponentModel.Composition.Hosting;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using CompositionSamples.MetadataSample.Cars.Contracts;
 
 namespace CompositionSamples.MetadataSample.App
