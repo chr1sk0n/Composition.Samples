@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.Composition;
-using System.ComponentModel.Composition.Hosting;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CompositionSample.TypesafeSample.CarContracts;
-
-namespace CompositionSample.TypesafeSample.App
+﻿namespace CompositionSample.TypesafeSample.App
 {
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.Composition;
+    using System.ComponentModel.Composition.Hosting;
+    using System.Linq;
+    using CompositionSample.TypesafeSample.CarContracts;
+
     /// <summary>
     /// 
     /// </summary>
