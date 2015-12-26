@@ -36,27 +36,36 @@ namespace CompositionSample.TypesafeSample.App
         /// <summary>
         /// Runs this instance.
         /// </summary>
-        void Run()
+        private void Run()
         {
             var catalog = new DirectoryCatalog(".");
             var container = new CompositionContainer(catalog);
             container.ComposeParts(this);
-            foreach (Lazy<ICarContract, ICarMetadata> car in CarParts)
+            PrintCarMetadata(CarParts);
+            Print(CarParts);
+            container.Dispose();
+        }
+
+        /// <summary>
+        /// Prints the car metadata.
+        /// </summary>
+        /// <param name="carParts">The car parts.</param>
+        private void PrintCarMetadata(IEnumerable<Lazy<ICarContract, ICarMetadata>> carParts)
+        {
+            foreach (Lazy<ICarContract, ICarMetadata> car in carParts)
             {
                 Console.WriteLine(car.Metadata.CarName);
                 Console.WriteLine(car.Metadata.Color);
                 Console.WriteLine(car.Metadata.Price);
                 Console.WriteLine("");
             }
-            Print(CarParts);
-            container.Dispose();
         }
 
         /// <summary>
         /// Prints the specified car parts.
         /// </summary>
         /// <param name="carParts">The car parts.</param>
-        void Print(IEnumerable<Lazy<ICarContract, ICarMetadata>> carParts)
+        private void Print(IEnumerable<Lazy<ICarContract, ICarMetadata>> carParts)
         {
             var blackCars = from lazyCarPart in carParts
                 let metadata = lazyCarPart.Metadata
