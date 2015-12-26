@@ -17,9 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition.Samples.Contruc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MetadataSample", "MetadataSample", "{E62189A1-BDF0-4297-836E-994C82599200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionSamples.MetadataSample.App", "CompositionSamples.MetadataSample.App\CompositionSamples.MetadataSample.App.csproj", "{777EF8D8-EDAD-455A-A708-05748E40934A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionSamples.NotTypesafeSample.App", "CompositionSamples.MetadataSample.App\CompositionSamples.NotTypesafeSample.App.csproj", "{777EF8D8-EDAD-455A-A708-05748E40934A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionSamples.MetadataSample.Cars", "CompositionSamples.MetadataSample.Cars\CompositionSamples.MetadataSample.Cars.csproj", "{62CDE6A1-E26C-41B1-94A2-53F7D2A9BECC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionSamples.NotTypesafeSample.Contracts", "CompositionSamples.MetadataSample.Cars\CompositionSamples.NotTypesafeSample.Contracts.csproj", "{62CDE6A1-E26C-41B1-94A2-53F7D2A9BECC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MetadataSampleTypesafe", "MetadataSampleTypesafe", "{EF261B82-56E1-4860-BAC2-36EEF3296C64}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionSmaple.SampleTypesafe.Daimler", "CompositionSmaple.MetadataSampleTypesafe.Daimler\CompositionSmaple.SampleTypesafe.Daimler.csproj", "{E178E8CD-D30D-40AD-89CB-C8276E8557FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionSample.SampleTypesafe.BMWs", "CompositionSample.SampleTypesafe.BMWs\CompositionSample.SampleTypesafe.BMWs.csproj", "{839F3469-DB41-474E-BC55-2F8C9E7A076B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionSamples.NotTypesafeSample.Cars", "CompositionSamples.NotTypesafeSample.Cars\CompositionSamples.NotTypesafeSample.Cars.csproj", "{66C4E90C-144F-4DC7-A639-F4DDA8D54D33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{839F3469-DB41-474E-BC55-2F8C9E7A076B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{839F3469-DB41-474E-BC55-2F8C9E7A076B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{839F3469-DB41-474E-BC55-2F8C9E7A076B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C4E90C-144F-4DC7-A639-F4DDA8D54D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C4E90C-144F-4DC7-A639-F4DDA8D54D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C4E90C-144F-4DC7-A639-F4DDA8D54D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C4E90C-144F-4DC7-A639-F4DDA8D54D33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,5 +98,6 @@ Global
 		{6C691A3B-2E5B-4089-BB5F-64A300DCEA55} = {EF261B82-56E1-4860-BAC2-36EEF3296C64}
 		{E178E8CD-D30D-40AD-89CB-C8276E8557FD} = {EF261B82-56E1-4860-BAC2-36EEF3296C64}
 		{839F3469-DB41-474E-BC55-2F8C9E7A076B} = {EF261B82-56E1-4860-BAC2-36EEF3296C64}
+		{66C4E90C-144F-4DC7-A639-F4DDA8D54D33} = {E62189A1-BDF0-4297-836E-994C82599200}
 	EndGlobalSection
 EndGlobal

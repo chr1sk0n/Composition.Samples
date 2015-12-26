@@ -7,16 +7,16 @@
     <ProjectGuid>{62CDE6A1-E26C-41B1-94A2-53F7D2A9BECC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CompositionSamples.MetadataSample.Cars</RootNamespace>
-    <AssemblyName>CompositionSamples.MetadataSample.Cars</AssemblyName>
+    <RootNamespace>CompositionSamples.NotTypesafeSample.Contracts</RootNamespace>
+    <AssemblyName>CompositionSamples.NotTypesafeSample.Contracts</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -42,10 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BMW.cs" />
     <Compile Include="Contracts\CarColor.cs" />
     <Compile Include="Contracts\ICarContract.cs" />
-    <Compile Include="Mercedes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

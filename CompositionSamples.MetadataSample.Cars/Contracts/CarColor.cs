@@ -1,4 +1,4 @@
-﻿namespace CompositionSamples.MetadataSample.Cars.Contracts
+﻿namespace CompositionSamples.NotTypesafeSample.Contracts
 {
     /// <summary>
     /// CarColor

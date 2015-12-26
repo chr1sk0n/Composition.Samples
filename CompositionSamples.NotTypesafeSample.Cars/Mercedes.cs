@@ -1,13 +1,13 @@
 ﻿using System;
 using System.ComponentModel.Composition;
-using CompositionSamples.MetadataSample.Cars.Contracts;
+using CompositionSamples.NotTypesafeSample.Contracts;
 
-namespace CompositionSamples.MetadataSample.Cars
+namespace CompositionSamples.NotTypesafeSample.Cars
 {
     /// <summary>
     /// Mercedes
     /// </summary>
-    /// <seealso cref="CompositionSamples.MetadataSample.Cars.Contracts.ICarContract" />
+    /// <seealso cref="CompositionSamples.NotTypesafeSample.Contracts.ICarContract" />
     [ExportMetadata("Name", "Mercedes")]
     [ExportMetadata("Color", CarColor.Blue)]
     [ExportMetadata("Price", (uint)55100)]

@@ -52,9 +52,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CompositionSamples.MetadataSample.Cars\CompositionSamples.MetadataSample.Cars.csproj">
+    <ProjectReference Include="..\CompositionSamples.MetadataSample.Cars\CompositionSamples.NotTypesafeSample.Contracts.csproj">
       <Project>{62cde6a1-e26c-41b1-94a2-53f7d2a9becc}</Project>
-      <Name>CompositionSamples.MetadataSample.Cars</Name>
+      <Name>CompositionSamples.NotTypesafeSample.Contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
