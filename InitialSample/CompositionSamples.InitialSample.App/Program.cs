@@ -24,6 +24,7 @@ namespace Composition.Samples.Initial
         static void Main(string[] args)
         {
             new Program().Run();
+            Console.ReadKey();
         }
 
         /// <summary>
@@ -35,7 +36,7 @@ namespace Composition.Samples.Initial
             var container = new CompositionContainer(catalog);
             container.ComposeParts(this);
             Print(_carsContract);
-            Console.ReadKey();
+            container.Dispose();
         }
 
         /// <summary>
