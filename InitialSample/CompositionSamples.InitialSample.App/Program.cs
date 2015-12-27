@@ -1,31 +1,48 @@
 ﻿
 
+
+
 namespace Composition.Samples.Initial
 {
     using System;
-    using Composition.Samples.Initial.Cars.CarContracts;
     using System.ComponentModel.Composition;
     using System.ComponentModel.Composition.Hosting;
 
+    using Composition.Samples.Initial.CarContracts.Contracts;
+
+    /// <summary>
+    /// class Program
+    /// </summary>
     class Program
     {
-        [ImportMany(typeof (ICar))] ICar[] _cars = null;
+        [ImportMany(typeof (ICarContract))] ICarContract[] _carsContract = null;
 
+        /// <summary>
+        /// Mains the specified arguments.
+        /// </summary>
+        /// <param name="args">The arguments.</param>
         static void Main(string[] args)
         {
             new Program().Run();
         }
 
-        void Run()
+        /// <summary>
+        /// Runs this instance.
+        /// </summary>
+        private void Run()
         {
             var catalog = new DirectoryCatalog(".");
             var container = new CompositionContainer(catalog);
             container.ComposeParts(this);
-            Print(_cars);
+            Print(_carsContract);
             Console.ReadKey();
         }
 
-        private void Print(ICar[] cars)
+        /// <summary>
+        /// Prints the specified cars.
+        /// </summary>
+        /// <param name="cars">The cars.</param>
+        private void Print(ICarContract[] cars)
         {
             foreach (var car in cars)
             {

@@ -16,8 +16,8 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -45,9 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BMW.cs" />
-    <Compile Include="CarContracts\ICar.cs" />
     <Compile Include="Mercedes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Composition.Samples.Initial.CarContracts\Composition.Samples.Initial.CarContracts.csproj">
+      <Project>{da21204e-23d9-4575-ba05-a9f1de92b6ed}</Project>
+      <Name>Composition.Samples.Initial.CarContracts</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
