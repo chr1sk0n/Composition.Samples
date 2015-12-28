@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel.Composition;
-using CompositionSample.TypesafeSample.CarContracts;
+using CompositionSample.TypesafeSample.CarContracts.Contracts;
 
 namespace CompositionSample.TypesafeSample.BMWs
 {
