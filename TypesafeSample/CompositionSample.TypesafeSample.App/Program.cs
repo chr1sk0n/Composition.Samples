@@ -55,7 +55,7 @@
                 Console.WriteLine(car.Metadata.CarName);
                 Console.WriteLine(car.Metadata.Color);
                 Console.WriteLine(car.Metadata.Price);
-                Console.WriteLine("");
+                Console.WriteLine();
             }
         }
 
