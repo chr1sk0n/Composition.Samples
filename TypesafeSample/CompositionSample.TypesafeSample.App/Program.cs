@@ -5,7 +5,7 @@
     using System.ComponentModel.Composition;
     using System.ComponentModel.Composition.Hosting;
     using System.Linq;
-    using CompositionSample.TypesafeSample.CarContracts;
+    using CompositionSample.TypesafeSample.CarContracts.Contracts;
 
     /// <summary>
     /// 
