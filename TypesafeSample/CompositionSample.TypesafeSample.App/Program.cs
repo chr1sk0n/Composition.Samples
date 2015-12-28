@@ -22,7 +22,7 @@
         private IEnumerable<Lazy<ICarContract, ICarMetadata>> CarParts { get; set; }
 
         /// <summary>
-        /// Mains the specified arguments.
+        /// starting point
         /// </summary>
         /// <param name="args">The arguments.</param>
         static void Main(string[] args)
