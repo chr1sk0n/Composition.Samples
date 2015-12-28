@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace CompositionSample.TypesafeSample.CarContracts
+namespace CompositionSample.TypesafeSample.CarContracts.Contracts
 {
     public interface ICarMetadata
     {
